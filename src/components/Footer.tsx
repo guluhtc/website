@@ -45,8 +45,9 @@ export default function Footer() {
                                     <Phone className="h-4 w-4 text-primary" />
                                 </div>
                                 <div className="pt-1">
-                                    <p className="font-medium text-white hover:text-primary transition-colors cursor-pointer">+91 9799844214</p>
-                                    <p className="font-medium text-white hover:text-primary transition-colors cursor-pointer mt-1">+91 9380342484</p>
+                                    <p className="font-medium text-white hover:text-primary transition-colors cursor-pointer"><a href="tel:+919799844214">+91 9799844214</a></p>
+                                    <p className="font-medium text-white hover:text-primary transition-colors cursor-pointer mt-1"><a href="tel:+919380342484">+91 9380342484</a></p>
+                                    <p className="font-medium text-amber-500 hover:text-amber-400 transition-colors cursor-pointer mt-1"><a href="tel:+918008460659">+91 8008460659</a></p>
                                 </div>
                             </div>
                             <div className="flex items-center space-x-3 group">

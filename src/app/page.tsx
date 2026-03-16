@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ImageSlider from "@/components/ImageSlider";
+import ModularInterior from "@/components/ModularInterior";
 import Testimonials from "@/components/Testimonials";
 import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
@@ -14,6 +15,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <ImageSlider />
+        <ModularInterior />
         <Testimonials />
         <Services />
         <WhyUs />
