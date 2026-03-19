@@ -16,7 +16,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <ImageSlider />
-        <ServicesGrid />
+        <ServicesGrid showButton={false} />
         <Services />
         <Testimonials />
         <WhyUs />
