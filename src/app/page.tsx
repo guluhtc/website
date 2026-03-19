@@ -4,6 +4,7 @@ import ImageSlider from "@/components/ImageSlider";
 import ModularInterior from "@/components/ModularInterior";
 import Testimonials from "@/components/Testimonials";
 import Services from "@/components/Services";
+import ServicesGrid from "@/components/ServicesGrid";
 import WhyUs from "@/components/WhyUs";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
@@ -15,9 +16,9 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <ImageSlider />
-        <ModularInterior />
-        <Testimonials />
+        <ServicesGrid />
         <Services />
+        <Testimonials />
         <WhyUs />
       </main>
       <Footer />

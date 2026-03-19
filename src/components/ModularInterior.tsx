@@ -213,17 +213,21 @@ export default function ModularInterior() {
                     </div>
 
                     {/* Phone Numbers */}
-                    <motion.div variants={itemVariants} className="flex items-center gap-4 justify-center">
-                        <Phone className="w-5 h-5 text-[#d2a353] fill-[#d2a353] hidden sm:block mt-1 shrink-0" />
-                        <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-base md:text-lg font-serif tracking-wide">
+                    <motion.div variants={itemVariants} className="flex flex-col md:flex-row items-center gap-4 justify-center">
+                        <div className="flex items-center gap-4 text-base md:text-lg font-serif tracking-wide">
                             <div className="flex items-center gap-2">
                                 <span className="text-slate-400">Pankaj:</span>
                                 <a href="tel:+919799844214" className="text-[#e2c180] hover:text-white transition-colors">+91 9799844214</a>
                             </div>
-                            <span className="hidden sm:inline text-slate-500/80 font-light">|</span>
+                            <span className="hidden md:inline text-slate-500/80 font-light">|</span>
                             <div className="flex items-center gap-2">
-                                <span className="text-slate-400">Kushal:</span>
-                                <a href="tel:+918008460659" className="text-[#e2c180] hover:text-white transition-colors">+91 8008460659</a>
+                                <span className="text-slate-400">Arjun:</span>
+                                <a href="tel:+919380342484" className="text-[#e2c180] hover:text-white transition-colors">+91 9380342484</a>
+                            </div>
+                            <span className="hidden md:inline text-slate-500/80 font-light">|</span>
+                            <div className="flex items-center gap-2">
+                                <span className="text-slate-400 font-bold text-amber-500">Helpline:</span>
+                                <a href="tel:+916361990388" className="text-white hover:text-amber-400 transition-colors">+91 6361990388</a>
                             </div>
                         </div>
                     </motion.div>

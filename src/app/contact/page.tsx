@@ -62,9 +62,9 @@ export default function ContactPage() {
                             {
                                 icon: Phone,
                                 label: "Phone",
-                                lines: ["+91 9799844214", "+91 9380342484"],
+                                lines: ["Pankaj: +91 9799844214", "Arjun: +91 9380342484", "Helpline: +91 6361990388"],
                                 color: "bg-blue-50 text-blue-600",
-                                href: "tel:+919799844214",
+                                href: "tel:+916361990388",
                             },
                             {
                                 icon: Globe,
@@ -76,9 +76,9 @@ export default function ContactPage() {
                             {
                                 icon: MessageCircle,
                                 label: "WhatsApp",
-                                lines: ["+91 9799844214", "Chat with us instantly"],
+                                lines: ["+91 6361990388", "Helpline - 24/7 Service"],
                                 color: "bg-green-50 text-green-600",
-                                href: "https://wa.me/919799844214",
+                                href: "https://wa.me/916361990388",
                             },
                             {
                                 icon: MapPin,
@@ -127,15 +127,15 @@ export default function ContactPage() {
                             <div className="font-bold text-lg mb-1">Quick Response Guarantee</div>
                             <div className="text-slate-400 text-sm">We respond to all inquiries within 2 business hours.</div>
                         </div>
-                        <div className="flex flex-col sm:flex-row gap-3">
-                            <a href="tel:+919799844214">
+                        <div className="flex flex-col sm:row gap-3">
+                            <a href="tel:+916361990388">
                                 <Button size="lg" className="rounded-full px-6 font-bold w-full">
-                                    <Phone className="h-4 w-4 mr-2" /> Call Now
+                                    <Phone className="h-4 w-4 mr-2" /> Help Line
                                 </Button>
                             </a>
-                            <a href="https://wa.me/919799844214" target="_blank" rel="noopener noreferrer">
+                            <a href="https://wa.me/916361990388" target="_blank" rel="noopener noreferrer">
                                 <Button size="lg" variant="outline" className="rounded-full px-6 font-bold border-white text-white hover:bg-white hover:text-slate-900 w-full">
-                                    WhatsApp
+                                    WhatsApp Helpline
                                 </Button>
                             </a>
                         </div>
