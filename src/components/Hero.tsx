@@ -124,7 +124,7 @@ export default function Hero() {
                             Explore Our Services <ArrowRight className="ml-2 h-5 w-5 md:h-6 md:w-6" />
                         </Button>
                     </a>
-                    <a href="https://wa.me/916361990388" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                    <a href="https://wa.me/919799844214" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                         <Button
                             size="lg"
                             variant="outline"

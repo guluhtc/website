@@ -16,7 +16,7 @@ export default function Footer() {
                                 alt="SteelNArt Logo"
                                 width={180}
                                 height={64}
-                                className="object-contain h-16 w-auto brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
+                                className="object-contain h-16 md:h-20 w-auto hover:scale-105 transition-transform duration-300"
                             />
                         </Link>
                         <p className="text-slate-400 leading-relaxed text-sm">

@@ -45,11 +45,11 @@ export default function Navbar() {
 
                         {/* Desktop Right */}
                         <div className="hidden md:flex items-center space-x-4">
-                            <a href="tel:+916361990388" className="hidden lg:flex items-center space-x-2 text-slate-300 hover:text-white transition-colors font-medium text-sm">
+                            <a href="tel:+919799844214" className="hidden lg:flex items-center space-x-2 text-slate-300 hover:text-white transition-colors font-medium text-sm">
                                 <Phone className="h-4 w-4 text-primary" />
-                                <span>+91 6361990388</span>
+                                <span>+91 9799844214</span>
                             </a>
-                            <a href="https://wa.me/916361990388" target="_blank" rel="noopener noreferrer">
+                            <a href="https://wa.me/919799844214" target="_blank" rel="noopener noreferrer">
                                 <Button className="shadow-md shadow-primary/20 font-semibold rounded-full px-6">
                                     Get Quote <ArrowRight className="ml-2 h-4 w-4" />
                                 </Button>
@@ -80,11 +80,11 @@ export default function Navbar() {
                                 {link.label}
                             </Link>
                         ))}
-                        <a href="tel:+916361990388" className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors font-medium pt-2">
+                        <a href="tel:+919799844214" className="flex items-center gap-2 text-slate-300 hover:text-white transition-colors font-medium pt-2">
                             <Phone className="h-4 w-4 text-primary" />
-                            <span>+91 6361990388</span>
+                            <span>+91 9799844214</span>
                         </a>
-                        <a href="https://wa.me/916361990388" target="_blank" rel="noopener noreferrer" className="w-full">
+                        <a href="https://wa.me/919799844214" target="_blank" rel="noopener noreferrer" className="w-full">
                             <Button className="w-full rounded-full font-bold" onClick={() => setOpen(false)}>
                                 Get Quote <ArrowRight className="ml-2 h-4 w-4" />
                             </Button>
