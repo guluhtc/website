@@ -1,23 +1,30 @@
 import ServicePageTemplate from "@/components/ServicePageTemplate";
 
 export default function FurniturePage() {
-    // Furniture is broad. We'll use some images from the sofa folder too as they represent furniture.
     const imageFiles = [
         "IMG-20260318-WA0003.jpg",
+        "IMG-20260318-WA0004.jpg",
+        "IMG-20260318-WA0005.jpg",
+        "IMG-20260318-WA0006.jpg",
         "IMG-20260318-WA0007.jpg",
-        "IMG-20260318-WA0010.jpg"
+        "IMG-20260318-WA0008.jpg",
+        "IMG-20260318-WA0009.jpg",
+        "IMG-20260318-WA0010.jpg",
+        "IMG-20260318-WA0011.jpg",
+        "IMG-20260318-WA0013.jpg"
     ];
 
     return (
         <ServicePageTemplate
-            title="Bespoke Furniture Solutions"
-            description="Luxury furniture pieces designed with premium craftsmanship to complement your interior decor with style and comfort."
-            imageFolder="/services/sofa"
+            title="Luxury Sofa & Bespoke Seating"
+            description="Exquisite handcrafted sofas designed with premium upholstery and superior craftsmanship for ultimate comfort."
+            imageFolder="/services/furniture"
             imageFiles={imageFiles}
             details={[
-                "Exquisite handcrafted wooden furniture",
-                "Custom-built sofas, dining sets, and bedroom furniture",
-                "Modern and classical designs tailored to your taste",
+                "Bespoke sofas with premium fabric and leatherette options",
+                "High-density ergonomic foam for long-lasting comfort",
+                "Custom handcrafted wooden and metal seating frames",
+                "Sectionals, Chesterfields, and Modern Minimalist designs",
                 "Quality assurance with premium materials and finishes"
             ]}
         />

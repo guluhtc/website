@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, LayoutGrid, Armchair, SquareCode, Box, DoorOpen, Grid3X3, Layers } from "lucide-react";
+import { ArrowRight, LayoutGrid, Armchair, SquareCode, Box, DoorOpen, Grid3X3, Layers, Warehouse, Sparkles } from "lucide-react";
 
 const servicesList = [
     {
@@ -14,10 +14,10 @@ const servicesList = [
         icon: <LayoutGrid className="w-6 h-6" />
     },
     {
-        title: "Furniture",
-        description: "Exquisite handcrafted wooden and metal furniture pieces.",
+        title: "Sofa",
+        description: "Exquisite handcrafted sofas and luxury seating solutions.",
         href: "/services/furniture",
-        image: "/services/sofa/IMG-20260318-WA0007.jpg",
+        image: "/services/furniture/IMG-20260318-WA0007.jpg",
         icon: <Armchair className="w-6 h-6" />
     },
     {
@@ -28,11 +28,18 @@ const servicesList = [
         icon: <SquareCode className="w-6 h-6" />
     },
     {
-        title: "Sofa",
-        description: "Luxury seating solutions with premium upholstery.",
-        href: "/services/sofa",
-        image: "/services/sofa/IMG-20260318-WA0014.jpg",
-        icon: <Box className="w-6 h-6" />
+        title: "Corten Steel",
+        description: "Weathering steel solutions for architectural projects.",
+        href: "/services/corten-steel",
+        image: "/services/corten steel/1000457441.jpg",
+        icon: <Warehouse className="w-6 h-6" />
+    },
+    {
+        title: "PVD Furniture",
+        description: "Luxury lifestyle furniture with premium PVD coating.",
+        href: "/services/pvd-furniture",
+        image: "/services/pvd furniture & railing/1000456280.jpg",
+        icon: <Sparkles className="w-6 h-6" />
     },
     {
         title: "SS Doors",

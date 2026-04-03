@@ -22,7 +22,8 @@ export default function ServicesOverviewPage() {
                             "/images/modular-kitchen.png",
                             "/services/glass railing/IMG-20260318-WA0045.jpg",
                             "/services/ss doors/IMG-20260318-WA0037.jpg",
-                            "/services/sofa/IMG-20260318-WA0014.jpg",
+                            "/services/corten steel/1000457441.jpg",
+                            "/services/pvd furniture & railing/1000456292.jpg",
                             "/services/ss grill/IMG-20260318-WA0019.jpg",
                             "/services/ss railing/IMG-20260318-WA0055.jpg"
                         ].map((img, idx) => (
@@ -40,7 +41,7 @@ export default function ServicesOverviewPage() {
 
                 <ServicesGrid
                     title="Our Offerings"
-                    description="Excellence in Modular interiors, Furniture, and Industrial Fabrication Solutions."
+                    description="Excellence in Modular interiors, Sofas, and Industrial Fabrication Solutions."
                     showButton={false}
                 />
             </main>

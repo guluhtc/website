@@ -69,7 +69,7 @@ export default function ModularInterior() {
                         <br />
                         <span className="text-2xl md:text-4xl lg:text-5xl flex items-center justify-center gap-6 mt-3">
                             <span className="h-1 flex-1 bg-gradient-to-r from-transparent to-primary max-w-[80px]"></span>
-                            <span className="text-primary">Furniture</span>
+                            <span className="text-primary">Sofa</span>
                             <span className="h-1 flex-1 bg-gradient-to-l from-transparent to-primary max-w-[80px]"></span>
                         </span>
                     </h2>
